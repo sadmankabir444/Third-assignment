@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third assignment</title>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+      <!-- Google font manrope -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+      <!-- DaisyUI -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="flex justify-around bg-slate-50 py-5">
+        <!-- Navbar -->
+        <div class="flex">
+            <i class=" py-3 bg-lime-300 rounded-full px-3 fa-solid fa-arrow-right"></i>
+            <h2 class="font-bold px-3 text-2xl">Rinterio</h2>
+        </div>
+        <div class="flex gap-5">
+          <p>Home</p>
+          <p>Services</p>
+          <p>Portfolio</p>
+          <p>Blogs</p>
+          <p>Contact Us</p>
+        </div>
+        <div>
+          <i class="bg-white py-3 px-3 rounded-full fa-solid fa-magnifying-glass"></i>
+          <i class="bg-white py-3 px-3 rounded-full mx-3 fa-solid fa-cart-shopping"></i>
+          <button class="bg-gradient-to-r from-lime-400 to-lime-300 px-4 py-2 rounded-3xl">Book Consult <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </header>
+    <main>
+      <!-- Banner Section -->
+       <section>
+        <div class="">
+          <img class="mx-auto" src="images/banner.png" alt="">
+        </div>
+        <div>
+          <h1 class="font-extrabold text-6xl text-center px-10 py-10">
+            A barn house of this design has a 
+            striking appearance
+          </h1>
+          <p class="text-center lg:px-40">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal 
+            accents, and large windows that flood the space with natural light
+          </p>
+          <div class="text-center">
+            <button class="bg-lime-200 py-3 px-7 rounded-3xl "> View Details <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+       </section>
+       <!-- Design section -->
+      <section class="bg-slate-100 flex">
+        <div>
+          <button class="bg-white px-4 py-2 rounded-3xl"><i class="fa-solid fa-arrow-right"></i>About Us </button>
+        </div>
+        <div>
+          <img src="images/Rectangle.png" alt="">
+        </div>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
